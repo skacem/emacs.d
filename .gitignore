@@ -1,0 +1,29 @@
+*#
+.*#
+*.elc
+*~
+
+# Package manager directories
+elpa/
+eln-cache/
+straight/
+.cask/
+.straight/
+
+# Org mode specific
+*.org_archive
+*.org.bak
+
+# Other common Emacs generated files
+auto-save-list/
+history
+places
+bookmarks
+tramp
+server/
+url/
+var/
+
+# Org Roam specific
+org-roam.db
+org-roam.db-journal
